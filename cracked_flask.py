@@ -19,5 +19,9 @@ def index():
         
     return ret_str + "\n"
 
+def create_app():
+    return app
+
 if __name__ == "__main__":
-    serve(app, host="127.0.0.1", port=5000)
+    # serve(app, host="127.0.0.1", port=5000)
+    serve(app, port=5000)
