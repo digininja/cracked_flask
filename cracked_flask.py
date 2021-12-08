@@ -21,7 +21,6 @@ def index():
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="shortcut icon" type="image/png" href="https://digi.ninja/favicon.ico" />
-		<link href="/css/style.css" rel="stylesheet" type="text/css" />
 
 		<meta name="Description" content="A lab to learn about Python Flask sessions." />
 		<meta name="Keywords" content="flask,python,crack,session,site,security,ethical,hacking,penetration,testing,website,application,ninja,digininja" />
