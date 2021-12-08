@@ -1,7 +1,6 @@
 # Cracked Flask
 
-A very simple lab for cracking Flask session cookies.
-
+This is the code and deployment information for my [Cracked Flask](https://crackedflask.digi.ninja/) lab. For full details on the lab, see the [Cracked Flask blog post](https://digi.ninja/blog/cracked_flask.php).
 
 ## Walk Through
 
@@ -37,6 +36,15 @@ curl --cookie "session=$COOKIE" https://crackedflask.digi.ninja
 ```
 
 Or you could just put the signing command into the curl command with backticks.
+
+## Build
+
+This will build and start the Docker container.
+
+```
+docker build -t digininja/cracked_flask .
+docker run -p 127.0.0.1:5000:5000 --name cracked_flask digininja/cracked_flask .
+```
 
 ## References
 
