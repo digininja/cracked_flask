@@ -37,13 +37,29 @@ curl --cookie "session=$COOKIE" https://crackedflask.digi.ninja
 
 Or you could just put the signing command into the curl command with backticks.
 
-## Build
+## Running the App
+
+To run the app locally, first install the requirements:
+
+```
+pip3 install -r requirements.txt
+```
+
+And then run it:
+
+```
+python3 cracked_flask.py 
+```
+
+The app will start a listener on port 5000.
+
+## Docker
 
 This will build and start the Docker container.
 
 ```
 docker build -t digininja/cracked_flask .
-docker run -p 127.0.0.1:5000:5000 --name cracked_flask digininja/cracked_flask .
+docker run -p 127.0.0.1:5000:5000 --name cracked_flask digininja/cracked_flask
 ```
 
 ## References
