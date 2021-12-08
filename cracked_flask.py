@@ -46,6 +46,7 @@ def index():
     <p>Welcome to the Cracked Flask Lab.</p>
     <p>The challenge is easy, crack the Flask session and become an administrator.</p>
     <p><a href="/user">Enter the lab</a></p>
+    <p>For more information, see the <a href="https://digi.ninja/blog/cracked_flask.php">Cracked Flask Lab</a> blog post.</p>
 
 		<hr />
 		<p>
